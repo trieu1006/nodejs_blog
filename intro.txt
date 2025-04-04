@@ -1,0 +1,11 @@
+.gitignore: dùng để loại bỏ những file của git
+nodemon.json: dùng để config đuôi file
+pakage.json: khai báo script và các sự phụ thuộc
+pakage-lock.json: quản lý sự phụ thuộc chi tiết hơn
+
+*Cấu trúc project
+src: source chứa mọi code
+public: chứa các file tĩnh bao gồm css, img
+resources: không phải những file public
+views: sử dụng handlebar - tự động load layout
+scss: viết css nhanh hơn
