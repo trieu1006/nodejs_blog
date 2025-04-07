@@ -9,3 +9,21 @@ public: chứa các file tĩnh bao gồm css, img
 resources: không phải những file public
 views: sử dụng handlebar - tự động load layout
 scss: viết css nhanh hơn
+
+=========================================
+*Query parameters | Chuỗi truy vấn
+http://localhost:3000/search?q=hoc%20lap%20trinh&ref=mycv
+
+========================================
+*get lay du lieu
+*post gui du lieu
+======================================
+*MCV 
+Model: phần tương tác resources
+view: chỉ chứa views - html - css
+controller: trung chuyển giữa view và model
+
+======================================
+
+Tạo phương thức trong NewController
+Tạo tuyến đường trong news routes
